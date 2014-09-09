@@ -1,7 +1,8 @@
 yeoman-gulp-less
 ================
 
-yeoman generator-gulp-webapp ported to less
+yeoman [generator-gulp-webapp](https://github.com/yeoman/generator-gulp-webapp) ported to less
+
 
 ## Get Started
 
