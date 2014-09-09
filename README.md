@@ -13,16 +13,22 @@ Move inside the folder:
 
     cd yeoman-gulp-less
     
-Then install al dependencies
+Then install all dependencies
 
     npm install
-    
     bower install
     
-Done.
-
-You can now start developing your project, to add new libraries do so:
+to add new libraries do so:
 
     bower install bootstrap --save
     
+You can now start developing your project, to preview it in your browser while developing:
+
+    gulp watch
+    
+When ready to release:
+
+    gulp build
+    
 Done.
+
