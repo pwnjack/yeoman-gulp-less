@@ -6,7 +6,7 @@ yeoman [generator-gulp-webapp](https://github.com/yeoman/generator-gulp-webapp) 
 
 ## Get Started
 
-Clone this git
+Clone this git:
 
     git clone https://github.com/pwnjack/yeoman-gulp-less
     
@@ -14,7 +14,7 @@ Move inside the folder:
 
     cd yeoman-gulp-less
     
-Then install all dependencies
+Then install all dependencies:
 
     npm install
     bower install
@@ -23,7 +23,7 @@ to add new libraries do so:
 
     bower install bootstrap --save
     
-Wire them up to your html files
+Wire them up to your html files:
 
     gulp wiredep
     
@@ -35,5 +35,5 @@ When ready to release:
 
     gulp build
     
-Done.
+Done. You have your app ready for production inside the dist folder
 
