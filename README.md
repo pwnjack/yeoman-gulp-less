@@ -23,6 +23,10 @@ to add new libraries do so:
 
     bower install bootstrap --save
     
+Wire them up to your html files
+
+    gulp wiredep
+    
 You can now start developing your project, to preview it in your browser while developing:
 
     gulp watch
