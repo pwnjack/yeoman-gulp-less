@@ -41,7 +41,11 @@ gulp.task('html', ['styles', 'scripts'], function () {
         .pipe($.size());
 });
 
-gulp.task('images', function () {
+gulp.task('clear_cache', function (done) {
+    return $.cache.clearAll(done);
+});
+
+gulp.task('images', ['clear_cache'],function () {
     return gulp.src('app/images/**/*')
         .pipe($.cache($.imagemin({
             optimizationLevel: 3,
