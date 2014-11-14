@@ -1,5 +1,3 @@
-### This repo is deprecated, please look [here](http://github.com/pwnjack/primer) for future updates.
-
 yeoman-gulp-less
 ================
 
